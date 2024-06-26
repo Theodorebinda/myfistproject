@@ -1,6 +1,6 @@
 *{
-    margin: auto;
-    box-sizing: none;
+    margin:0;
+    box-sizing:0;
 
 }
 header {
@@ -37,7 +37,7 @@ header {
     background-image: url('images/lorenzo-spoleti-MlhJNEUQpBs-unsplash-1024x683.jpg');
     background-size: cover;
     background-position: center;
-    /* height: 100%; */
+    height: 30rem;
 }
 
 #hero-section h1{
@@ -45,4 +45,18 @@ header {
     text-align: center;
     color: white;
     font-weight: 700;
+}
+
+#hero-section p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+#titre-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: auto;
+    align-items: center;
 }
