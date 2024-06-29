@@ -107,3 +107,33 @@ header {
     height: 1rem;
     object-fit: contain;
 }
+.histoire {
+    background-color:  rgb(216, 216, 216) ;
+    padding: 2rem 3rem;;
+}
+.container-histoir {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-histoire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail-histoir {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.histoir-conte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
